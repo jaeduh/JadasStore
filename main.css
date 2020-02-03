@@ -1,0 +1,171 @@
+/*common elements*/
+body {
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(img/am90.jpg);
+    background-repeat: repeat;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 25% 25%;
+    -moz-background-size: 25% 25%;
+    background-size: 15% 15%;
+    -o-background-size: 25% 25%;
+}
+.contentWrapper {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 3.0em;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+/*header*/
+div.clear { 
+    clear:both;
+    font-size: 1%;
+}
+
+h1 {
+    color: darksalmon;
+    font-size: 3.0em;
+    text-align: center;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+h2 {
+    color: darkred;
+    font-size: 1.7em;
+    padding: 0px;
+    margin: 0.5em 0 0.35em 0;
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: teal;
+    padding: 0px;
+    margin: 0px 0.5em 0.75em 0px;
+}
+ol {
+    font-size: 1.2em;
+    margin: 0 0 0 1.0em;
+    padding: 0 0 0 1.0em;
+}
+ol li {
+    margin: 0;
+    padding: 0 0 0.2em;
+}
+a, a:visited {
+    color: darkslateblue;
+}
+a:hover {
+    color: darkslateblue;
+}
+hr {
+    padding: 0;
+    margin: 1.5em 1.5em 0.75em 0.5em;
+}
+/*nav*/
+nav
+{
+    color: #000;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0 ;
+}
+nav li img 
+{
+    height: 20px;
+    width: 20px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: #C64322;
+    padding: 0.3em 0.6em;
+}
+nav li a:hover {
+    color: #C64322;
+    background-color: rgba(252,251,243,0.75);
+}
+/*sidebar*/
+section#sidebar 
+{
+    width: 238px;
+    float: left;
+    position: relative;
+    display: block;
+    background-color: whitesmoke;
+    margin: 1.5em 0 3.0em 1.5em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border: darksalmon solid 5px;
+   }
+/*main/
+section#main {
+ /*background-color: #FCFBE6;*/
+ section #main
+ {
+     float: right;
+     background-color: rgba(252,251,243,0.7);
+     margin: 0 0 2.0em;
+     padding: 1.5em  0 2.0em 1.5em;
+     display: block;
+     border-radius: 0.5em;
+     box-shadow: 1px 1px px #777;/* offset-x | offset-y | blur-radius | color */
+    }
+    section div.panel{
+        float: right;
+        position: relative;
+        width: 250px;
+        margin: 0 0.5em 2.0em 0.5em;
+        padding: 1.0em;
+        background-color: #fff;
+        border: #ccc solid 1px;
+        border-radius: 0.6em;
+    }
+    section div.panel img.shoeOption {
+        width: 100%;
+}
+    /*footer*/
+    footer {
+        background-color: teal;
+        height: 25px;
+        font-size: 0.9em;
+        text-align: center;
+        color: #fff;
+        padding: 1.0em 1.0em;
+    }
+    footer ul#menuFooter {
+        display: inline-block;
+        list-style: none;
+        margin: 0 0 0 0.6em;
+        padding: 0;
+    }
+    footer ul li {
+        display: inline-block;
+        padding: 0 0.7em 0 0;
+        margin: 0;
+    }
+    footer ul li::before {
+        content: "| ";
+        padding-right: 0.7em;
+    }
+    footer a, footer a:visited {
+        color: #fff;
+        text-decoration: none;
+    }
+    footer a:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
